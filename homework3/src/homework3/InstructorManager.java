@@ -3,12 +3,11 @@ package homework3;
 public class InstructorManager extends UserManager{
 	@Override
 	public void addUser(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "Eðitmen Eklendi");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "EÃ°itmen Eklendi");
 	}
 	
-	public void addCourse(Instructor ýnsInstructor) {
-		System.out.println(ýnsInstructor.getCourse() + " " + "Kursu Eklendi");
-		System.out.println("////////////////////////");
+	public void addCourse(Instructor Ã½nsInstructor) {
+		System.out.println(Ã½nsInstructor.getCourse() + " " + "Kursu Eklendi");
 	}
 	
 }
